@@ -84,9 +84,9 @@ textarea{
     cursor: pointer;
     transition: 0.5s;
     min-width: 125px;
-    
-    
+    font-width: "bold"; 
 }
+
 #btndesenc{
     width: 45%;
     height: 100%;
@@ -98,6 +98,7 @@ textarea{
     cursor: pointer;
     transition: 0.5s;
     min-width: 140px;
+    font-width: "bold";
 }
 
 
@@ -168,6 +169,7 @@ textarea{
     height:50% ;
     margin: 0 auto;
     transition: 0.5s;
+    font-width: "bold";
 }
 
 .btnefect:hover{
