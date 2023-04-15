@@ -1,2 +1,2 @@
 # SantosRojas.github.io
-	:point_right: [Encriptador](https://santosrojas.github.io/)
+👉[Encriptador](https://santosrojas.github.io/)
