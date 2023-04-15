@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="frame1">
+        <div class="cuadro-entrada">
+          <img class="icono" src="images/icono.svg" />
+          <div class="frame11">
+            <div class="entrada">
+              <textarea id = "txt-input" placeholder="Escriba aqui"></textarea>
+            </div>
+          
+            <div class="info">
+              <img src="images/alert.svg" alt="" />
+              <p>Solo letras minusculas y sin acentos</p>
+            </div>
+          
+            <div class="botones">
+              <div class="btnalign">
+                <button id="btnenc" class="btnefect">Encriptar</button>
+                <button id="btndesenc" class="btnefect">Desencriptar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="frame2">
+        <div class="cuadro-salida">
+          <div id="cuadro-muneco">
+            <img class="muneco" src="images/muñeco.svg" alt="" />
+            <p id="primero">Ningún mensaje fue encontrado</p>
+            <p id="segundo">
+              Ingrese el mensaje que desea encriptar o desencriptar
+            </p>
+          </div>
+          <div id="cuadro-texto">
+            <p id="texto-salida">Resultado de la encriptacion</p>
+            <div class="copy">
+              <button class="btnefect" id="btncopy" >Copiar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
