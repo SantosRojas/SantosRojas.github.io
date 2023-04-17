@@ -56,7 +56,6 @@ function desencriptar() {
 
     if(texto!=""){
         if( scrw< 480.0){
-            alert(screen.width)
             frame1.style.height = "60%"
             frame2.style.height = "40%"
         }else if(scrw<820){
